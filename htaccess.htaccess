@@ -1,0 +1,5 @@
+AuthUserFile C:\Users\s612688\Desktop\Soundboard\htaccess.htaccess
+AuthGroupFile /dev/null
+AuthName "Soundboard"
+AuthType Basic
+require valid-user

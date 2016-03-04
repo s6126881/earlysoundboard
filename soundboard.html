@@ -1,0 +1,201 @@
+<DOCTYPE html>
+	<html lang="en" onLoad="passWord()">
+		<head>
+			<script type="text/javascript">
+			function pauseAudio(){
+				kazoo.pause();
+				kazoo.currentTime= 0;
+				allah.pause();
+				allah.currentTime= 0;
+				allahdub.pause();
+				allahdub.currentTime= 0;
+				combo.pause();
+				combo.currentTime= 0;
+				damn.pause();
+				damn.currentTime= 0;
+				darude.pause();
+				darude.currentTime= 0;
+				ever.pause();
+				ever.currentTime= 0;
+				gay.pause();
+				gay.currentTime= 0;
+				hitmarker.pause();
+				hitmarker.currentTime= 0;
+				horns.pause();
+				horns.currentTime= 0;
+				johncena.pause();
+				johncena.currentTime= 0;
+				leeroy.pause();
+				leeroy.currentTime= 0;
+				mom.pause();
+				mom.currentTime= 0;
+				nuke.pause();
+				nuke.currentTime= 0;
+				nutz.pause();
+				nutz.currentTime= 0;
+				OHOH.pause();
+				OHOH.currentTime= 0;
+				sad.pause();
+				sad.currentTime= 0;
+				sadairhorn.pause();
+				sadairhorn.currentTime= 0;
+				sanic.pause();
+				sanic.currentTime= 0;
+				say.pause();
+				say.currentTime= 0;
+				shots.pause();
+				shots.currentTime= 0;
+				skrillex.pause();
+				skrillex.currentTime=0;
+				spooky.pause();
+				spooky.currentTime= 0;
+				those.pause();
+				those.currentTime= 0;
+				triple.pause();
+				triple.currentTime= 0;
+				wam.pause();
+				wam.currentTime= 0;
+				weed.pause();
+				weed.currentTime= 0;
+				wow.pause();
+				wow.currentTime= 0;
+				milk.pause();
+				milk.currentTime= 0;
+			}
+		</script>
+		<script>
+				function passWord() {
+				var testV = 1;
+				var pass1 = prompt('Please Enter Your Password',' ');
+				while (testV < 3) {
+				if (!pass1) 
+				history.go(-1);
+				if (pass1.toLowerCase() == "thillakno") {
+				alert('You Got it Right!');
+				window.open('www.wikihow.com');
+				break;
+				} 
+				testV+=1;
+				var pass1 = 
+				prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+				}
+				if (pass1.toLowerCase()!="password" & testV ==3) 
+				history.go(-1);
+				return " ";
+				} 
+		</script>
+			<title>Brian's Soundboard</title>
+			<link rel="stylesheet" href="style.css">
+			<meta charset="utf-8">
+	  		<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js">		</script>		
+	  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">		</script>
+		<audio id="kazoo" src="sound/kazoo.mp3"></audio>
+		<audio id="allah" src="sound/allah.mp3"></audio>
+		<audio id="allahdub" src="sound/allahdub.mp3"></audio>
+		<audio id="combo" src="sound/combo.mp3"></audio>
+		<audio id="damn" src="sound/damn.mp3"></audio>
+		<audio id="darude" src="sound/darude.mp3"></audio>
+		<audio id="ever" src="sound/ever.mp3"></audio>
+		<audio id="gay" src="sound/gay.mp3"></audio>
+		<audio id="hitmarker" src="sound/hitmarker.mp3"></audio>
+		<audio id="horns" src="sound/horns.mp3"></audio>
+		<audio id="johncena" src="sound/johncena.mp3"></audio>
+		<audio id="leeroy" src="sound/leeroy.mp3"></audio>
+		<audio id="mom" src="sound/mom.mp3"></audio>
+		<audio id="nuke" src="sound/nuke.mp3"></audio>
+		<audio id="nutz" src="sound/nutz.mp3"></audio>
+		<audio id="OHOH" src="sound/OHOH.mp3"></audio>
+		<audio id="sad" src="sound/sad.mp3"></audio>
+		<audio id="sadairhorn"  src="sound/sadairhorn.mp3"></audio>
+		<audio id="sanic" src="sound/anic.mp3"></audio>
+		<audio id="say" src="sound/say.mp3"></audio>
+		<audio id="shots" src="sound/shots.mp3"></audio>
+		<audio id="skrillex" src="sound/skrillex.mp3"></audio>
+		<audio id="spooky" src="sound/spooky.mp3"></audio>
+		<audio id="those" src="sound/those.mp3"></audio>
+		<audio id="triple" src="sound/triple.mp3"></audio>
+		<audio id="wam" src="sound/wam.mp3"></audio>
+		<audio id="weed" src="sound/weed.mp3"></audio>
+		<audio id="wow" src="sound/wow.mp3"></audio>
+		<audio id="milk" src="sound/milk.mp3"></audio>
+		</head>
+		<body>
+			<!--Header-->
+			<div class="container-fluid" id="header">
+				<h1>MLG Soundboard</h1>
+			</div>
+			<!--NavBar-->
+			<nav class="container-fluid">
+				<ul class="container-fluid">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="http://thillak.github.io/danksoundboard/">Homie Thillak</a></li>
+				</ul>
+			</nav>
+			<!--Body-->
+			<div class="container-fluid" id="stop">
+				<div class="row">
+					<div class="style">
+						<div class="col-md-12"><button onClick="pauseAudio()">Stop Audio</button></div>
+					</div>
+				</div>
+			</div>
+			<!--Row 0-->
+			<div class="container-fluid" id="row0">
+				<div class="row">
+					<div class="style">
+						<div class="col-md-4"><button onClick="document.getElementById('kazoo').play()">Kazoo</button></div>
+						<div class="col-md-4"><button onClick="document.getElementById('allah').play()">Allah Akbar</button></div>
+						<div class="col-md-4"><button onClick="document.getElementById('allahdub').play()">AllahDub</button></div>
+					</div>
+				</div>
+			</div>
+			
+			<!--Row1-->
+			<div class="container-fluid" id="row1">
+				<div class="row">
+					<div class="style">
+						<div class="col-md-4"><button onClick="document.getElementById('combo').play()">Wombo Combo</button></div>
+						<div class="col-md-4"><button onClick="document.getElementById('damn').play()">Damn Sun</button></div>
+						<div class="col-md-4"><button onClick="document.getElementById('darude').play()">Darude</button></div>
+					</div>
+				</div>
+			</div>
+			
+			<!--Row2-->
+			<div class="container-fluid" id="row2">
+				<div class="row">
+					<div class="style">
+						<div class="col-md-4"><button onClick="document.getElementById('ever').play()">No One Has Ever</button></div>
+						<div class="col-md-4"><button onClick="document.getElementById('gay').play()">Ha Gay</button></div>
+						<div class="col-md-4"><button onClick="document.getElementById('hitmarker').play()">Hit Marker</button></div>
+					</div>
+				</div>
+			</div>
+			
+			<!--Row3-->
+			<div class="container-fluid" id="row3">
+				<div class="row">
+					<div class="style">
+						<div class="col-md-4"><button onClick="document.getElementById('horns').play()">Horns</button></div>
+						<div class="col-md-4"><button onClick="document.getElementById('johncena').play()">John Cena</button></div>
+						<div class="col-md-4"><button onClick="document.getElementById('leeroy').play()">Leeroy Jenkins</button></div>
+					</div>
+				</div>
+			</div>
+			
+			<!--Row4-->
+			<div class="container-fluid" id="row4">
+				<div class="row">
+					<div class="style">
+						<div class="col-md-4"><button onClick="document.getElementById('mom').play()">Mom Get The Camera</button></div>
+			
+			<!--Bottom-->
+			<div class="container-fluid" id="bottom">
+				<div class="row">
+					<div class="style">
+						<div class="col-md-4"><a id="link" href="http://goo.gl/forms/TSQnHwTFRJ">Make A Suggestion</li></div>
+					</div>
+				</div>
+			</div>
